@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#gamescrn {
+    display: block;
+}
+
+#gameover {
+    position: absolute;
+    visibility: hidden;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: green;
+}
+
+h2 {
+    font-family: 'Covered By Your Grace', cursive;
+    color: blue;
+}
+
+.title {
+    font-size: 54px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#restartbutton {
+    border: 4px solid white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#restartbutton:hover {
+    background-color: crimson;
+}
