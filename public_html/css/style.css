@@ -7,7 +7,7 @@ body {
     display: block;
 }
 
-#gameover {
+#gameover, #playHUD {
     position: absolute;
     visibility: hidden;
 }
@@ -17,7 +17,7 @@ h1 {
     color: green;
 }
 
-h2 {
+h3 {
     font-family: 'Covered By Your Grace', cursive;
     color: blue;
 }
@@ -36,4 +36,8 @@ h2 {
 
 #restartbutton:hover {
     background-color: crimson;
+}
+
+#scoreboard {
+    margin: 0px;
 }
